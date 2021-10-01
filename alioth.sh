@@ -16,3 +16,4 @@ git clone https://github.com/Havoc-Devices/android_hardware_qcom_caf_alioth-disp
 # This cherry pick command is available for all changes pushed to gerrit with a download button
 
 # NOTE : no outside changes will be cloned or be fetched , as they are susceptible to malice or change.
+export buildtype="user"
