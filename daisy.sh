@@ -1,0 +1,10 @@
+export SELINUX_IGNORE_NEVERALLOWS=true
+export SKIP_ABI_CHECKS=true
+
+if [ $WITH_GAPPS = true ] ; then 
+
+export TARGET_GAPPS_ARCH=arm64
+export TARGET_INCLUDE_LIVE_WALLPAPERS=false
+export TARGET_SUPPORTS_GOOGLE_RECORDER=false
+
+fi
