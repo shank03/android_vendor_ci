@@ -17,5 +17,5 @@ git clone https://github.com/Havoc-Devices/android_hardware_qcom_caf_alioth-disp
 
 # NOTE : no outside changes will be cloned or be fetched , as they are susceptible to malice or change.
 
-# export build_type="user"
 
+# export build_type="user"

@@ -16,4 +16,4 @@ git clone https://github.com/Havoc-Devices/android_hardware_qcom_display_ginkgo_
 git clone https://github.com/Havoc-Devices/android_vendor_qcom_sdclang_ginkgo_willow  prebuilts/clang/host/linux-x86/clang-sdllvm
 
 # Build Type
-export buildtype="user"
+export build_type="user"

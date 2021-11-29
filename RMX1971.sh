@@ -1,2 +1,2 @@
 # User build for RMX1971
-export buildtype="user"
+export build_type="user"

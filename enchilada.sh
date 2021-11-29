@@ -15,4 +15,4 @@ rm -rf prebuilts/clang/host/linux-x86/clang-r433403
 git clone -b 12.0 https://gitlab.com/havoc-devices/android_prebuilts_clang_host_linux-x86_clang-r437112.git  prebuilts/clang/host/linux-x86/clang-r437112
 
 #BuildType
-export buildtype="user"
+export build_type="user"

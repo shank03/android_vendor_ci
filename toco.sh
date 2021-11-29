@@ -1,2 +1,2 @@
 # User buildtype for toco
-export buildtype="user"
+export build_type="user"

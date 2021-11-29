@@ -3,5 +3,5 @@ if [ ! -f ${rompath}/bash.lock ]; then
     git clone -b eleven https://gitlab.com/havoc-devices/vendor_oneplus_addons_camera.git vendor/oneplus/addons/camera
 fi
 
-export buildtype="user"
+export build_type="user"
 echo "Done" > ${rompath}/bash.lock

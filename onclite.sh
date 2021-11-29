@@ -1,3 +1,3 @@
 # Build Type
 
-export buildtype="user"
+export build_type="user"
