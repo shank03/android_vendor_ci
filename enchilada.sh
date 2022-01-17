@@ -12,7 +12,8 @@ git clone https://github.com/Havoc-Devices/android_sdm845_qcom_media  -b sdm845 
 
 
 rm -rf prebuilts/clang/host/linux-x86/clang-r433403
-git clone -b 12.0 https://gitlab.com/havoc-devices/android_prebuilts_clang_host_linux-x86_clang-r437112.git  prebuilts/clang/host/linux-x86/clang-r437112
+git clone -b 12.0 https://gitlab.com/havoc-devices/android-prebuilts-clang-host-linux-x86-clang-r437112bb.git  prebuilts/clang/host/linux-x86/clang-r437112b
+
 
 #BuildType
 export build_type="user"
