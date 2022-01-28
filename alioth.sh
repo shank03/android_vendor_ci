@@ -4,9 +4,6 @@
 
 # All cloned stuff should be hosted on havoc-devices , otherwise it won't be cloned
 
-rm -rf hardware/qcom-caf/sm8250/display
-git clone https://github.com/Havoc-Devices/android_hardware_qcom_caf_alioth-display  hardware/qcom-caf/sm8250/display
-
 # To make changes in source for an example in frameworks/base
 
 # cd frameworks/base
@@ -17,5 +14,7 @@ git clone https://github.com/Havoc-Devices/android_hardware_qcom_caf_alioth-disp
 
 # NOTE : no outside changes will be cloned or be fetched , as they are susceptible to malice or change.
 
-
 # export build_type="user"
+
+rm -rf hardware/qcom-caf/sm8250/display
+git clone https://github.com/Havoc-Devices/android_hardware_qcom_caf_alioth-display  hardware/qcom-caf/sm8250/display

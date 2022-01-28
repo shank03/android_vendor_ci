@@ -1,4 +1,4 @@
-if [ ! -f ${rompath}/bash.lock ]; then
+if [ ! -f ${source_path}/bash.lock ]; then
     bash device/oneplus/sm8350-common/patch/patch.sh
     rm -rf hardware/oneplus
     rm -rf hardware/qcom-caf/kernel-headers
@@ -13,4 +13,4 @@ if [ ! -f ${rompath}/bash.lock ]; then
 fi
 
 export build_type="user"
-echo "Done" > ${rompath}/bash.lock
+echo "Done" > ${source_path}/bash.lock
