@@ -8,4 +8,5 @@ then
      git -C build/soong commit -m "tmp"
 
 export build_type="userdebug"
+export SELINUX_IGNORE_NEVERALLOWS=true
 echo "Done" >> ${source_path}/bash.lock
